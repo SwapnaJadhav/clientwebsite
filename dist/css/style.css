@@ -1,0 +1,143 @@
+
+.navbar-light .navbar-brand {
+    color: #08294C;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #08294C;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: bold;
+  
+}
+                     /* About us part css  */
+strong{
+    color: #08294C;
+    font-family: MONTSERRAT-BOLD;
+}
+span.red{
+    color: #FF0A00 !important;
+    font-family: MONTSERRAT-BOLD;
+}
+p.para{
+    font-size: 18px;
+    color: #08294C;
+    font-family: MONTSERRAT-BOLD;
+}
+
+.card{
+    border:1px solid #08294C !important;
+}
+                       /* what we do part css */
+
+.card.border{
+    border-color: #ffffff !important;
+}
+.dropdown-divider {
+   border-top: 2px solid #FF0A00;
+}
+.text-muted {
+    color: #08294C !important;
+    font-size: 18px !important;
+    font-family: MONTSERRAT-BOLD;
+    font-weight: 400 !important;
+}
+
+                        /* Blogs page css */
+/* h4.card-title1{
+    font-size: 30px;
+    color: #08294C;
+    font-family: MONTSERRAT-BOLD;
+    font-weight: bold;
+} */
+a.card-link{
+    color: #0195FC !important;
+    font-size: 24px !important;
+    font-family: MONTSERRAT-BOLD;
+    font-weight: bold;
+}
+.btn-primary {
+    font-family: MONTSERRAT-BOLD;
+     color:#FF0A00;
+    background-color: transparent;
+    border-color:#FF0A00;
+    font-size: 18px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.btn-primary:hover {
+    color:#FF0A00;
+    background-color: transparent;
+    border-color:#FF0A00;
+}
+                    /* background crousal/slider with image/logo css */
+.backgroung-image{
+    background: url("./../../images _of _web/Rectangle 5.png");
+}
+p.whitecolor{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: MONTSERRAT-BOLD;
+}
+span.cwhite{
+    color:#FFFFFF ;
+    font-family: MONTSERRAT-BOLD;
+}
+                        /* contactus csss */
+.btn-secondary{
+    font-family: MONTSERRAT-BOLD;
+    color:#FFFFFF;
+   background-color: #FF0A00 ;
+   border-color:#FF0A00;
+   font-size: 18px;
+   border: 2px solid;
+   border-radius: 10px;
+   padding: 5px 20px;
+}
+.btn-secondary:hover{
+    color:#FFFFFF;
+    background-color: #FF0A00;
+    border-color:#FF0A00;
+}
+
+label{
+    font-size: 18px;
+    color: #08294C;
+    font-family: MONTSERRAT-BOLD;
+}
+.form-control{
+    border: 2px solid #08294C;
+    border-radius: 10px;
+}
+                 /* footer cssss*/
+.footer1{
+    background-color:#5D5D5D;
+}
+p.font{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: MONTSERRAT-BOLD;
+    font-weight: bold;
+}
+p.font2{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: MONTSERRAT-BOLD;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px){
+    nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
+      padding-left: 4%;
+    
+    }
+  }
+  @media (min-width: 1349px){
+    nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
+      padding-left: 9%;
+    
+    }
+  }
+  
+
