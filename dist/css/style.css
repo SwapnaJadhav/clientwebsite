@@ -9,6 +9,16 @@
     font-weight: bold;
   
 }
+.carousel-caption{
+  display: block;
+    text-align: center;
+    top: 30%;
+    height: auto;
+    font-family: MONTSERRAT-BOLD;
+    font-weight: bold;
+/* transform: translateY(-50%); */
+}
+
                      /* About us part css  */
 strong{
     color: #08294C;
@@ -43,12 +53,7 @@ p.para{
 }
 
                         /* Blogs page css */
-/* h4.card-title1{
-    font-size: 30px;
-    color: #08294C;
-    font-family: MONTSERRAT-BOLD;
-    font-weight: bold;
-} */
+
 a.card-link{
     color: #0195FC !important;
     font-size: 24px !important;
@@ -83,7 +88,20 @@ span.cwhite{
     color:#FFFFFF ;
     font-family: MONTSERRAT-BOLD;
 }
-                        /* contactus csss */
+ol {
+    margin-bottom: -7% !important;
+}
+.card.color-w{
+background-color: #FFFFFF;
+}
+.dropdown-divider.divider1.my-3 {
+    margin: 42%;
+}
+/* .dropdown-divider.divider1.my-3 {
+    margin:0% 42% !important;
+} */
+                        
+                         /* contactus csss */
 .btn-secondary{
     font-family: MONTSERRAT-BOLD;
     color:#FFFFFF;
@@ -132,10 +150,25 @@ p.font2{
       padding-left: 4%;
     
     }
+.carousel-caption{
+        display: block;
+        text-align: center;
+        top: 0%;
+        height: auto;
+        font-family: MONTSERRAT-BOLD;
+}
+    .f-sm{
+        font-size: 20px;
+        font-family: MONTSERRAT-BOLD;
+      }
+    .f-sm1{
+        font-size: 14px;
+        font-family: MONTSERRAT-BOLD;
+        }
   }
   @media (min-width: 1349px){
     nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
-      padding-left: 9%;
+      padding-left: 15%;
     
     }
   }
