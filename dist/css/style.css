@@ -100,7 +100,19 @@ background-color: #FFFFFF;
 /* .dropdown-divider.divider1.my-3 {
     margin:0% 42% !important;
 } */
-                        
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+   background-color: #08294C;
+    background-clip: padding-box;
+    border-top: 0px solid transparent;
+    border-bottom: 0px dotted transparent;
+   border-radius: 10px;
+}
+li.active {
+    background-color: #FF0A00;
+}
+                       
                          /* contactus csss */
 .btn-secondary{
     font-family: MONTSERRAT-BOLD;
