@@ -75,6 +75,12 @@ a.card-link{
     background-color: transparent;
     border-color:#FF0A00;
 }
+                                   /* user prfile with card css */
+img.rounded-circle.mx-auto.d-block {
+    position: relative;
+    top: 66px;
+    z-index: 1;
+}
                     /* background crousal/slider with image/logo css */
 .backgroung-image{
     background: url("./../../images _of _web/Rectangle 5.png");
@@ -155,7 +161,7 @@ p.font2{
     font-family: MONTSERRAT-BOLD;
     font-weight: bold;
 }
-
+                         /* media query */
 
 @media (max-width: 768px){
     nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
