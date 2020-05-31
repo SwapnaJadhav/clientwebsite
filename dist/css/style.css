@@ -204,6 +204,9 @@ p.font2{
         font-family: MONTSERRAT-BOLD;
         }
   }
+  .carousel{
+      margin-top: 62px;
+  }
   @media (min-width: 1349px){
     nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
       padding-left: 15%;
