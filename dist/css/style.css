@@ -1,4 +1,6 @@
-
+/* img.img{
+    height: 30px;
+} */
 .navbar-light .navbar-brand {
     color: #08294C;
 }
@@ -8,6 +10,10 @@
     font-family: Montserrat;
     font-weight: bold;
   
+}
+.navbar-light .navbar-toggler {
+    color: #FF0A00;
+    border-color: #FF0A00;
 }
 .carousel-caption{
   display: block;
@@ -38,7 +44,9 @@ p.para{
     border:1px solid #08294C !important;
 }
                        /* what we do part css */
-
+.bg-light1{
+    background-color: #F6F6F6 !important;
+}
 .card.border{
     border-color: #ffffff !important;
 }
@@ -56,7 +64,7 @@ p.para{
 
 a.card-link{
     color: #0195FC !important;
-    font-size: 24px !important;
+    font-size: 20px !important;
     font-family: MONTSERRAT-BOLD;
     font-weight: bold;
 }
@@ -128,7 +136,9 @@ ol.carousel-indicators.clip1 {
 ol.carousel-indicators.clip1 li{
     background-color: #08294C;
 }
-                       
+ol.carousel-indicators.clip1 li.active{
+    background-color: #FF0A00;
+}                     
                          /* contactus csss */
 .btn-secondary{
     font-family: MONTSERRAT-BOLD;
