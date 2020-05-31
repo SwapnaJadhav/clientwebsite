@@ -94,9 +94,6 @@ span.cwhite{
     color:#FFFFFF ;
     font-family: MONTSERRAT-BOLD;
 }
-ol {
-    margin-bottom: -7% !important;
-}
 .card.color-w{
 background-color: #FFFFFF;
 }
@@ -106,10 +103,17 @@ background-color: #FFFFFF;
 /* .dropdown-divider.divider1.my-3 {
     margin:0% 42% !important;
 } */
+
+/* ol {
+    margin-bottom: -7% !important;
+} */
+.carousel-indicators{
+    bottom: 10px;
+}
 .carousel-indicators li {
     width: 12px;
     height: 12px;
-   background-color: #08294C;
+   background-color: #FFFFFF;
     background-clip: padding-box;
     border-top: 0px solid transparent;
     border-bottom: 0px dotted transparent;
@@ -117,6 +121,12 @@ background-color: #FFFFFF;
 }
 li.active {
     background-color: #FF0A00;
+}
+ol.carousel-indicators.clip1 {
+    bottom: -76px;
+}
+ol.carousel-indicators.clip1 li{
+    background-color: #08294C;
 }
                        
                          /* contactus csss */
