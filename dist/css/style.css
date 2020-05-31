@@ -15,6 +15,15 @@
     color: #FF0A00;
     border-color: #FF0A00;
 }
+a.nav-link{
+    border-bottom: 2px solid transparent;
+}
+a.nav-link.active{
+    border-bottom: 2px solid #FF0A00;
+}
+a.nav-link:hover{
+    border-bottom: 2px solid #FF0A00;
+}
 .carousel-caption{
   display: block;
     text-align: center;
