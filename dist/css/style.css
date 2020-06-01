@@ -1,6 +1,9 @@
 /* img.img{
     height: 30px;
 } */
+.shadow{
+    box-shadow: 2px 3px 5px #0E0E0E80;
+}
 .navbar-light .navbar-brand {
     color: #08294C;
 }
@@ -24,20 +27,35 @@ a.nav-link.active{
 a.nav-link:hover{
     border-bottom: 2px solid #FF0A00;
 }
+.carousel.m-top{
+    margin-top: 62px;
+}
 .carousel-caption{
   display: block;
     text-align: center;
     top: 30%;
     height: auto;
-    font-family: MONTSERRAT-BOLD;
-    font-weight: bold;
 /* transform: translateY(-50%); */
 }
-
+                        /* Home css fontsize crousal captionpart */
+h1.f-sm{
+    /* font-family:  MONTSERRAT-BOLD; */
+}
+p.f-sm1{
+    font-size: 18px;
+    font-family: Montserrat-Regular;
+}
+  
                      /* About us part css  */
 strong{
     color: #08294C;
     font-family: MONTSERRAT-BOLD;
+}
+h3.card-title{
+    color: #08294C;
+    font-size: 24px;
+    font-family: MONTSERRAT-BOLD;
+    font-weight: 600;
 }
 span.red{
     color: #FF0A00 !important;
@@ -46,7 +64,7 @@ span.red{
 p.para{
     font-size: 18px;
     color: #08294C;
-    font-family: MONTSERRAT-BOLD;
+    font-family: Montserrat-Regular;
 }
 
 .card{
@@ -63,11 +81,19 @@ p.para{
    border-top: 2px solid #FF0A00;
 }
 .text-muted {
-    color: #08294C !important;
-    font-size: 18px !important;
-    font-family: MONTSERRAT-BOLD;
-    font-weight: 400 !important;
+    /* color: #08294C !important; */
+    font-size: 16px !important;
+    font-family:Montserrat;
+    /* font-weight: 400 !important; */
 }
+h5.font1{
+    font-size: 20px;
+    color: #08294C;
+    font-family: MONTSERRAT-BOLD;
+    font-weight: bold;
+
+}
+
 
                         /* Blogs page css */
 
@@ -104,12 +130,12 @@ img.rounded-circle.mx-auto.d-block {
 }
 p.whitecolor{
     color: #FFFFFF;
-    font-size: 18px;
-    font-family: MONTSERRAT-BOLD;
+    font-size: 14px;
+    font-family: Montserrat-Regular;
 }
 span.cwhite{
     color:#FFFFFF ;
-    font-family: MONTSERRAT-BOLD;
+    font-family: Montserrat-Regular;
 }
 .card.color-w{
 background-color: #FFFFFF;
@@ -117,13 +143,7 @@ background-color: #FFFFFF;
 .dropdown-divider.divider1.my-3 {
     margin: 42%;
 }
-/* .dropdown-divider.divider1.my-3 {
-    margin:0% 42% !important;
-} */
 
-/* ol {
-    margin-bottom: -7% !important;
-} */
 .carousel-indicators{
     bottom: 10px;
 }
@@ -166,9 +186,9 @@ ol.carousel-indicators.clip1 li.active{
 }
 
 label{
-    font-size: 18px;
+    font-size: 16px;
     color: #08294C;
-    font-family: MONTSERRAT-BOLD;
+    font-family: Montserrat-Regular;
 }
 .form-control{
     border: 2px solid #08294C;
@@ -179,16 +199,16 @@ label{
     background-color:#5D5D5D;
 }
 p.font{
-    font-size: 20px;
+    font-size: 16px;
     color: #FFFFFF;
-    font-family: MONTSERRAT-BOLD;
+    font-family: Montserrat-Regular;
     font-weight: bold;
 }
 p.font2{
-    font-size: 14px;
+    font-size: 12px;
     color: #FFFFFF;
-    font-family: MONTSERRAT-BOLD;
-    font-weight: bold;
+    font-family: Montserrat-Regular;
+    /* font-weight: bold; */
 }
                          /* media query */
 
@@ -202,25 +222,27 @@ p.font2{
         text-align: center;
         top: 0%;
         height: auto;
-        font-family: MONTSERRAT-BOLD;
+        font-family: Montserrat-Regular;
 }
-    .f-sm{
-        font-size: 20px;
-        font-family: MONTSERRAT-BOLD;
-      }
-    .f-sm1{
-        font-size: 14px;
-        font-family: MONTSERRAT-BOLD;
+h1.f-sm{
+    font-family:  MONTSERRAT-BOLD;
+    font-size: 20px;
+}
+p.f-sm1{
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+}
+   
+.carousel.m-top{
+            margin-top: 62px;
         }
-  }
-  .carousel{
-      margin-top: 62px;
-  }
+}
   @media (min-width: 1349px){
     nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
       padding-left: 15%;
     
     }
   }
+
   
 
