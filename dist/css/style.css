@@ -38,9 +38,7 @@ a.nav-link:hover{
 /* transform: translateY(-50%); */
 }
                         /* Home css fontsize crousal captionpart */
-h1.f-sm{
-    /* font-family:  MONTSERRAT-BOLD; */
-}
+
 p.f-sm1{
     font-size: 18px;
     font-family: Montserrat-Regular;
@@ -99,7 +97,7 @@ h5.font1{
 
 a.card-link{
     color: #0195FC !important;
-    font-size: 20px !important;
+    font-size: 16px !important;
     font-family: MONTSERRAT-BOLD;
     font-weight: bold;
 }
@@ -213,6 +211,22 @@ p.font2{
     font-family: Montserrat-Regular;
     /* font-weight: bold; */
 }
+span.iconleft1{
+    margin-left: -55%;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+span.iconleft{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+                                  /* index2 htmlpage css */
+ .m-top1 {
+    margin-top: 64px;
+}
+a.linkcolor{
+    color: #0195FC;
+}
                          /* media query */
 
 @media (max-width: 768px){
@@ -223,7 +237,7 @@ p.font2{
 .carousel-caption{
         display: block;
         text-align: center;
-        top: 0%;
+        top: -10%;
         height: auto;
         font-family: Montserrat-Regular;
 }
