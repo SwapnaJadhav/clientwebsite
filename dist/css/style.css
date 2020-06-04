@@ -1,6 +1,9 @@
 .navbar{
     padding: 0px 1rem;
 }
+/* nav.navbar. navbarpadd.navbar-expand-lg.navbar-light.bg-white.fixed-top.shadow {
+    padding: 0px 1rem;
+} */
 .shadow{
     box-shadow: 2px 3px 5px #0E0E0E80;
 }
@@ -221,9 +224,9 @@ span.iconleft{
     font-size: 25px;
 }
                                   /* index2 htmlpage css */
- .m-top1 {
+ /* .m-top1 {
     margin-top: 64px;
-}
+} */
 a.linkcolor{
     color: #0195FC;
 }
