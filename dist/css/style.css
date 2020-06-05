@@ -30,9 +30,6 @@ a.nav-link{
 a.nav-link.active{
     border-bottom: 2px solid #FF0A00;
 }
-/* a.nav-link:hover{
-    border-bottom: 2px solid #FF0A00;
-} */
 
 .carousel.m-top{
     margin-top: 62px;
@@ -254,6 +251,7 @@ h1.f-sm2{
         top: -10%;
         height: auto;
         font-family: Montserrat-Regular;
+        /* margin-top: 15%; */
 }
 h1.f-sm{
     font-family:  MONTSERRAT-BOLD;
