@@ -18,13 +18,14 @@
 //   });
 
 $(document).ready(function () {
-    $('.a.nav-link ').click(function(e) {
+    $('.nav-link ').click(function(e) {
 
-        $('.a.nav-link.active').removeClass('active');
+        $('.nav-link').removeClass('active');
 
-        var $parent = $(this).parent();
-        $parent.addClass('active');
-        e.preventDefault();
+       // var $parent = $(this).parent();
+        //$parent.addClass('active');
+        $(this).addClass("active");
+      //  e.preventDefault();
     });
 });
 
