@@ -1,3 +1,6 @@
+/* .Container-fluid{
+    scroll-behavior: smooth;
+} */
 .navbar{
     padding: 2px 1rem;
 }
@@ -42,7 +45,11 @@ a.nav-link.active{
 /* transform: translateY(-50%); */
 }
                         /* Home css fontsize crousal captionpart */
-
+h1.f-sm{
+    font-family: MONTSERRAT;
+    font-weight: bold;
+    font-size: 35px;
+}
 p.f-sm1{
     font-size: 18px;
     font-family: Montserrat-Regular;
@@ -55,7 +62,7 @@ strong{
 }
 h3.card-title{
     color: #08294C;
-    font-size: 24px;
+    font-size: 20px;
     font-family: MONTSERRAT-BOLD;
     font-weight: 600;
 }
@@ -89,7 +96,7 @@ p.para{
     /* font-weight: 400 !important; */
 }
 h5.font1{
-    font-size: 20px;
+    font-size: 16px;
     color: #08294C;
     font-family: MONTSERRAT-BOLD;
     font-weight: bold;
@@ -101,7 +108,7 @@ h5.font1{
 
 a.card-link{
     color: #0195FC !important;
-    font-size: 16px !important;
+    font-size: 14px !important;
     font-family: MONTSERRAT-BOLD;
     font-weight: bold;
 }
@@ -110,10 +117,11 @@ a.card-link{
      color:#FF0A00;
     background-color: transparent;
     border-color:#FF0A00;
-    font-size: 18px;
-    border: 2px solid;
-    border-radius: 10px;
-    padding: 10px;
+    font-size: 11px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px 18px;
+    font-weight: bold;
 }
 .btn-primary:hover {
     color:#FF0A00;
@@ -127,15 +135,16 @@ img.rounded-circle.mx-auto.d-block {
     z-index: 1;
 }
 .carousel-item.imgmt {
-    margin-top: -40px;
+    margin-top: -60px;
 }
                     /* background crousal/slider with image/logo css */
 .backgroung-image{
     background: url("./../../images _of _web/Rectangle 5.png");
 }
+
 p.whitecolor{
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 12px;
     font-family: Montserrat-Regular;
 }
 span.cwhite{
@@ -179,10 +188,11 @@ ol.carousel-indicators.clip1 li.active{
     color:#FFFFFF;
    background-color: #FF0A00 ;
    border-color:#FF0A00;
-   font-size: 18px;
+   font-size: 12px;
    border: 2px solid;
-   border-radius: 10px;
-   padding: 5px 20px;
+   border-radius: 7px;
+   padding: 7px 33px;
+   font-weight: 700;
 }
 .btn-secondary:hover{
     color:#FFFFFF;
@@ -191,26 +201,26 @@ ol.carousel-indicators.clip1 li.active{
 }
 
 label{
-    font-size: 16px;
+    font-size: 13px;
     color: #08294C;
     font-family: Montserrat-Regular;
 }
 .form-control{
     border: 1px solid #08294C;
-    border-radius: 10px;
+    border-radius: 5px;
 }
                  /* footer cssss*/
 .footer1{
     background-color:#5D5D5D;
 }
 p.font{
-    font-size: 16px;
+    font-size: 14px;
     color: #FFFFFF;
     font-family: Montserrat-Regular;
     font-weight: bold;
 }
 p.font2{
-    font-size: 12px;
+    font-size: 10px;
     color: #FFFFFF;
     font-family: Montserrat-Regular;
     /* font-weight: bold; */
@@ -236,7 +246,7 @@ a.linkcolor1{
 }
 h1.f-sm2{
     font-size: 25px;
-    /* font-family: MONTSERRAT-BOLD; */
+    font-family: MONTSERRAT-BOLD;
 }
                          /* media query */
 
@@ -248,7 +258,7 @@ h1.f-sm2{
 .carousel-caption{
         display: block;
         text-align: center;
-        top: -10%;
+        top: -15%;
         height: auto;
         font-family: Montserrat-Regular;
         /* margin-top: 15%; */
