@@ -1,6 +1,10 @@
 /* .Container-fluid{
     scroll-behavior: smooth;
 } */
+/* div#emptydiv {
+    padding-top: 42px;
+    height: 40px;
+} */
 .navbar{
     padding: 2px 1rem;
 }
