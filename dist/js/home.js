@@ -6,7 +6,22 @@ $(document).ready(function () {
        // var $parent = $(this).parent();
         //$parent.addClass('active');
         $(this).addClass("active");
-      //  e.preventDefault();
+       e.preventDefault();
+       $('#homelink').click(function(e){
+        window.scrollTo(0,-1);
+       });
+       $('#aboutuslink').click(function(e){
+        window.scrollTo(0,460);
+       });
+       $('#whatwedolink').click(function(e){
+        window.scrollTo(0,1250);
+       });
+       $('#blogslink').click(function(e){
+        window.scrollTo(0,2500);
+       });
+       $('#contactuslink').click(function(e){
+        window.scrollTo(0,4200);
+       });
     });
 });
 
