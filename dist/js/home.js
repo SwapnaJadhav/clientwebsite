@@ -10,6 +10,10 @@ $(document).ready(function () {
     });
 });
 
+// $("a").click(function(){
+//   var pageId = $(this).attr("data-page");
+//   $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
+// });
 
 // $(function(){
 //   $('a[href*=\\#]:not([href=\\#])').on('click', function(){
