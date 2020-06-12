@@ -21,7 +21,12 @@
     font-size: 16px;
     font-family: Montserrat;
     font-weight: bold;
-  
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #08294C;
+}
+a.nav-link.active{
+    color: #08294C !important;
 }
 .navbar-light .navbar-toggler {
     color: #FF0A00;
