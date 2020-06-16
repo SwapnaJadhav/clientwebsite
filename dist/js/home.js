@@ -13,16 +13,16 @@ $(document).ready(function () {
         window.scrollTo(0,-1);
        });
        $('#aboutuslink').click(function(e){
-        window.scrollTo(0,460);
+        window.scrollTo(0,400);
        });
        $('#whatwedolink').click(function(e){
-        window.scrollTo(0,1230);
+        window.scrollTo(0,1150);
        });
        $('#blogslink').click(function(e){
-        window.scrollTo(0,2530);
+        window.scrollTo(0,2370);
        });
        $('#contactuslink').click(function(e){
-        window.scrollTo(0,4230);
+        window.scrollTo(0,3900);
        });
     }
     });

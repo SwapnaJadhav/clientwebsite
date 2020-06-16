@@ -48,25 +48,27 @@ a.nav-link.active{
 .carousel-caption{
   display: block;
     text-align: center;
-    top: 30%;
+    top: 20%;
     height: auto;
 /* transform: translateY(-50%); */
 }
                         /* Home css fontsize crousal captionpart */
 h1.f-sm{
-    font-family: MONTSERRAT;
+    font-family: Helvetica;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 40px !important;
 }
 p.f-sm1{
-    font-size: 18px;
+    font-size: 20px !important;
     font-family: Montserrat-Regular;
+    /* font-family: Helvetica; */
 }
   
                      /* About us part css  */
 strong{
     color: #08294C;
-    font-family: MONTSERRAT-BOLD;
+    /* font-family: MONTSERRAT-BOLD; */
+    font-family: Helvetica;
 }
 h3.card-title{
     color: #08294C;
@@ -76,10 +78,11 @@ h3.card-title{
 }
 span.red{
     color: #FF0A00 !important;
-    font-family: MONTSERRAT-BOLD;
+    /* font-family: MONTSERRAT-BOLD; */
+    font-family: Helvetica;
 }
 p.para{
-    font-size: 18px;
+    font-size: 20px;
     color: #08294C;
     font-family: Montserrat-Regular;
 }
@@ -157,7 +160,8 @@ p.whitecolor{
 }
 span.cwhite{
     color:#FFFFFF ;
-    font-family: Montserrat-Regular;
+    /* font-family: Montserrat-Regular; */
+    font-family: Helvetica;
 }
 .card.color-w{
 background-color: #FFFFFF;
@@ -182,7 +186,7 @@ li.active {
     background-color: #FF0A00;
 }
 ol.carousel-indicators.clip1 {
-    bottom: -76px;
+    bottom: -60px;
 }
 ol.carousel-indicators.clip1 li{
     background-color: #08294C;
@@ -196,10 +200,13 @@ ol.carousel-indicators.clip1 li.active{
     color:#FFFFFF;
    background-color: #FF0A00 ;
    border-color:#FF0A00;
-   font-size: 12px;
+   font-size: 14px;
    border: 2px solid;
    border-radius: 7px;
-   padding: 7px 33px;
+   /* padding: 7px 33px; */
+   padding: 4px 55px;
+   /* height: 34px;
+   width: 150px; */
    font-weight: 700;
 }
 .btn-secondary:hover{
@@ -250,7 +257,10 @@ p.parafont{
     font-size: 20px;
 }
 a.linkcolor1{
-    color: #2e2fde;
+    color: #00205B;
+}
+a.linkcolor{
+    color: #1266ff;
 }
 h1.f-sm2{
     font-size: 25px;
@@ -273,10 +283,10 @@ h1.f-sm2{
 }
 h1.f-sm{
     font-family:  MONTSERRAT-BOLD;
-    font-size: 18px;
+    font-size: 16px !important;
 }
 p.f-sm1{
-    font-size: 12px;
+    font-size: 12px !important;
     font-family: Montserrat-Regular;
 }
 h1.f-sm2{
@@ -293,5 +303,4 @@ h1.f-sm2{
     }
   }
 
-  
-
+ 
