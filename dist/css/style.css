@@ -19,7 +19,7 @@
 .navbar-light .navbar-nav .nav-link {
     color: #08294C;
     font-size: 16px;
-    font-family: Montserrat;
+    /* font-family: Montserrat; */
     font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link:hover{
@@ -60,7 +60,7 @@ h1.f-sm{
 }
 p.f-sm1{
     font-size: 20px !important;
-    font-family: Montserrat-Regular;
+    /* font-family: Montserrat-Regular; */
     /* font-family: Helvetica; */
 }
   
@@ -73,7 +73,7 @@ strong{
 h3.card-title{
     color: #08294C;
     font-size: 20px;
-    font-family: MONTSERRAT-BOLD;
+    /* font-family: MONTSERRAT-BOLD; */
     font-weight: 600;
 }
 span.red{
@@ -84,7 +84,7 @@ span.red{
 p.para{
     font-size: 20px;
     color: #08294C;
-    font-family: Montserrat-Regular;
+    /* font-family: Montserrat-Regular; */
 }
 
 .card{
@@ -109,7 +109,7 @@ p.para{
 h5.font1{
     font-size: 16px;
     color: #08294C;
-    font-family: MONTSERRAT-BOLD;
+    /* font-family: MONTSERRAT-BOLD; */
     font-weight: bold;
 
 }
@@ -120,7 +120,7 @@ h5.font1{
 a.card-link{
     color: #0195FC !important;
     font-size: 14px !important;
-    font-family: MONTSERRAT-BOLD;
+    /* font-family: MONTSERRAT-BOLD; */
     font-weight: bold;
 }
 .btn-primary {
@@ -231,13 +231,13 @@ label{
 p.font{
     font-size: 14px;
     color: #FFFFFF;
-    font-family: Montserrat-Regular;
+    /* font-family: Montserrat-Regular; */
     font-weight: bold;
 }
 p.font2{
     font-size: 10px;
     color: #FFFFFF;
-    font-family: Montserrat-Regular;
+    /* font-family: Montserrat-Regular; */
     /* font-weight: bold; */
 }
 span.iconleft1{
@@ -264,7 +264,7 @@ a.linkcolor{
 }
 h1.f-sm2{
     font-size: 25px;
-    font-family: MONTSERRAT-BOLD;
+    /* font-family: MONTSERRAT-BOLD; */
 }
                          /* media query */
 
