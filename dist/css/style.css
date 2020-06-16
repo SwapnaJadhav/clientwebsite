@@ -61,7 +61,7 @@ h1.f-sm{
 p.f-sm1{
     font-size: 20px !important;
     /* font-family: Montserrat-Regular; */
-    /* font-family: Helvetica; */
+    font-family: Helvetica;
 }
   
                      /* About us part css  */
@@ -74,7 +74,8 @@ h3.card-title{
     color: #08294C;
     font-size: 20px;
     /* font-family: MONTSERRAT-BOLD; */
-    font-weight: 600;
+    /* font-family: Helvetica; */
+    font-weight: bold;
 }
 span.red{
     color: #FF0A00 !important;
@@ -82,9 +83,10 @@ span.red{
     font-family: Helvetica;
 }
 p.para{
-    font-size: 20px;
+    font-size: 18px;
     color: #08294C;
     /* font-family: Montserrat-Regular; */
+    font-family: Helvetica;
 }
 
 .card{
@@ -102,14 +104,16 @@ p.para{
 }
 .text-muted {
     /* color: #08294C !important; */
-    font-size: 16px !important;
-    font-family:Montserrat;
+    font-size: 15px !important;
+    /* font-family:Montserrat; */
+    /* font-family: Helvetica; */
     /* font-weight: 400 !important; */
 }
 h5.font1{
     font-size: 16px;
     color: #08294C;
     /* font-family: MONTSERRAT-BOLD; */
+    font-family: Helvetica;
     font-weight: bold;
 
 }
@@ -124,7 +128,8 @@ a.card-link{
     font-weight: bold;
 }
 .btn-primary {
-    font-family: MONTSERRAT-BOLD;
+    /* font-family: MONTSERRAT-BOLD; */
+    font-family: Helvetica;
      color:#FF0A00;
     background-color: transparent;
     border-color:#FF0A00;
@@ -156,7 +161,8 @@ img.rounded-circle.mx-auto.d-block {
 p.whitecolor{
     color: #FFFFFF;
     font-size: 12px;
-    font-family: Montserrat-Regular;
+    /* font-family: Montserrat-Regular; */
+    font-family: Helvetica;
 }
 span.cwhite{
     color:#FFFFFF ;
@@ -196,7 +202,8 @@ ol.carousel-indicators.clip1 li.active{
 }                     
                          /* contactus csss */
 .btn-secondary{
-    font-family: MONTSERRAT-BOLD;
+    /* font-family: MONTSERRAT-BOLD; */
+    font-family: Helvetica;
     color:#FFFFFF;
    background-color: #FF0A00 ;
    border-color:#FF0A00;
@@ -218,7 +225,7 @@ ol.carousel-indicators.clip1 li.active{
 label{
     font-size: 13px;
     color: #08294C;
-    font-family: Montserrat-Regular;
+    /* font-family: Montserrat-Regular; */
 }
 .form-control{
     border: 1px solid #08294C;
@@ -238,6 +245,7 @@ p.font2{
     font-size: 10px;
     color: #FFFFFF;
     /* font-family: Montserrat-Regular; */
+    font-family: Helvetica;
     /* font-weight: bold; */
 }
 span.iconleft1{
