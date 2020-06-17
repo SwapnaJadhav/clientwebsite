@@ -16,7 +16,7 @@ $(document).ready(function () {
         window.scrollTo(0,400);
        });
        $('#whatwedolink').click(function(e){
-        window.scrollTo(0,1150);
+        window.scrollTo(0,1130);
        });
        $('#blogslink').click(function(e){
         window.scrollTo(0,2370);
