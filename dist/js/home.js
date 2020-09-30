@@ -12,40 +12,19 @@ $(document).ready(function () {
        $('#homelink').click(function(e){
         window.scrollTo(0,-1);
        });
-       $('#aboutuslink').click(function(e){
-        window.scrollTo(0,400);
-       });
-       $('#whatwedolink').click(function(e){
-        window.scrollTo(0,1130);
+      $('#whatwedolink').click(function(e){
+        window.scrollTo(0,420);
        });
        $('#blogslink').click(function(e){
-        window.scrollTo(0,2370);
+        window.scrollTo(0,1650);
+       });
+       $('#aboutuslink').click(function(e){
+        window.scrollTo(0,3200);
        });
        $('#contactuslink').click(function(e){
-        window.scrollTo(0,3900);
+        window.scrollTo(0,4200);
        });
     }
     });
 });
 
-// $("a").click(function(){
-//   var pageId = $(this).attr("data-page");
-//   $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
-// });
-
-// $(function(){
-//   $('a[href*=\\#]:not([href=\\#])').on('click', function(){
-//     var target = $(this.hash);
-//     target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
-//     if(target.length){
-//       $('html,body').animate({
-//         scrolltop: target.offset().top
-//       }, 1000);
-//       return false;
-//     }
-//   });
-// });
-
-// $('#aboutus1').click(function(){
-//     $(document).scrollTop(500) 
-//     });

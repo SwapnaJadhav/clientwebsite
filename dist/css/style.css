@@ -1,9 +1,6 @@
 .navbar{
     padding: 2px 1rem;
 }
-/* nav.navbar. navbarpadd.navbar-expand-lg.navbar-light.bg-white.fixed-top.shadow {
-    padding: 0px 1rem;
-} */
 .shadow{
     box-shadow: 2px 3px 5px #0E0E0E80;
 }
@@ -26,9 +23,6 @@ a.nav-link.active{
     color: #FF0A00;
     border-color: #FF0A00;
 }
-/* .bbottm{
-    border-bottom: 2px solid transparent;
-} */
 a.nav-link{
     border-bottom: 2px solid transparent;
 }
@@ -42,9 +36,8 @@ a.nav-link.active{
 .carousel-caption{
   display: block;
     text-align: center;
-    top: 20%;
+    top: 32%;
     height: auto;
-/* transform: translateY(-50%); */
 }
                         /* Home css fontsize crousal captionpart */
 h1.f-sm{
@@ -76,9 +69,7 @@ p.para{
     font-size: 20px;
     color: #08294C;
     font-family: Montserrat-Regular;
-    /* font-family: Helvetica; */
 }
-
 .card{
     border:1px solid #08294C !important;
 }
@@ -93,23 +84,16 @@ p.para{
    border-top: 2px solid #FF0A00;
 }
 .text-muted {
-    /* color: #08294C !important; */
     font-size: 16px !important;
     font-family:Montserrat;
-  
 }
 h5.font1{
     font-size: 16px;
     color: #08294C;
     font-family: MONTSERRAT-BOLD;
-    /* font-family: Helvetica; */
     font-weight: bold;
-
 }
-
-
-                        /* Blogs page css */
-
+/* Blogs page css */
 a.card-link{
     color: #0195FC !important;
     font-size: 14px !important;
@@ -196,10 +180,7 @@ ol.carousel-indicators.clip1 li.active{
    font-size: 14px;
    border: 2px solid;
    border-radius: 7px;
-   /* padding: 7px 33px; */
    padding: 4px 55px;
-   /* height: 34px;
-   width: 150px; */
    font-weight: 700;
 }
 .btn-secondary:hover{
@@ -231,7 +212,6 @@ p.font2{
     font-size: 10px;
     color: #FFFFFF;
     font-family: Montserrat-Regular;
-    /* font-weight: bold; */
 }
 span.iconleft1{
     margin-left: -55%;
@@ -242,10 +222,7 @@ span.iconleft{
     color: #FFFFFF;
     font-size: 25px;
 }
-                                  /* index2 htmlpage css */
- /* .m-top1 {
-    margin-top: 64px;
-} */
+/* index2 htmlpage css */
 p.parafont{
     font-size: 20px;
 }
@@ -269,17 +246,16 @@ h1.f-sm2{
 .carousel-caption{
         display: block;
         text-align: center;
-        top: -15%;
+        top: 5%;
         height: auto;
         font-family: Montserrat-Regular;
-        /* margin-top: 15%; */
 }
 h1.f-sm{
     font-family:  MONTSERRAT-BOLD;
-    font-size: 16px !important;
+    font-size: 9px !important;
 }
 p.f-sm1{
-    font-size: 12px !important;
+    font-size: 4px !important;
     font-family: Montserrat-Regular;
 }
 h1.f-sm2{
