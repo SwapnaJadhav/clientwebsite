@@ -246,16 +246,16 @@ h1.f-sm2{
 .carousel-caption{
         display: block;
         text-align: center;
-        top: 15%;
+        top: 30%;
         height: auto;
         font-family: Montserrat-Regular;
 }
 h1.f-sm{
     font-family:  MONTSERRAT-BOLD;
-    font-size: 10px !important;
+    font-size: 13px !important;
 }
 p.f-sm1{
-    font-size: 4px !important;
+    font-size: 6px !important;
     font-family: Montserrat-Regular;
 }
 h1.f-sm2{
@@ -264,6 +264,9 @@ h1.f-sm2{
 .carousel.m-top{
             margin-top: 62px;
         }
+.mob-ht{
+height: 155px;
+}
 }
   @media (min-width: 1349px){
     nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
